@@ -1,0 +1,94 @@
+/* Formatação basica dos textos da página e limita o*/
+body
+{
+    box-sizing: border-box;
+    width: 980px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 35px;
+    
+}
+
+/* Logo*/
+#logo
+{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    top: -28px;
+    
+}
+/* A imagem do drone e redimensiona ela*/
+#banner
+{
+    background-image: url(../img/banner.fw.png);
+    width: 980px;
+    height: 352px;
+    margin: auto;
+    
+    
+}
+
+/* Lista que cria a parte de cima azul da página(não achei nome melhor)*/
+
+.menu1 ul
+{
+    text-align: right;
+    border: 45px #1b8e99;
+    background-color: #1b8e99;
+    padding: 14px;
+    margin: auto;
+}
+
+.menu1 ul li
+{
+    display: inline;   
+}
+
+.menu1 ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.menu1 ul li a:hover
+{
+    background-color: #92c9ce;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/* Lista que cria a parte abaixo dá página(ainda não achei um nome melhor)*/
+
+.menu2 ul
+{
+    border: 45px #660000;
+    background-color: #660000;
+    padding: 14px;
+    margin: auto;
+}
+
+.menu2 ul li
+{
+    display: inline;
+}
+
+.menu2 ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.menu2 ul li a:hover
+{
+    background-color: white;
+    color: #660000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

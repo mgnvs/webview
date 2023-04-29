@@ -1,0 +1,510 @@
+#corpo
+{
+    width: 1000px;
+    margin: auto;
+    
+}
+/* drones imagens*/
+
+#drones
+{
+    display: flex;
+    justify-content: space-around;
+}
+#d1
+{
+    width: 300px;
+    height: 280px;
+    border: 3px solid #1b8d99;
+    margin-right: 20px;
+}
+
+#d2
+{
+    width: 300px;
+    border: 3px solid #660000;
+    height: 280px;
+    margin-right: 20px;
+}
+
+#d3
+{
+    width: 300px;
+    border: 3px solid #1b8d99;
+    height: 280px;
+}
+/* paragrafos drones*/
+
+.pag1{ 
+    position: relative;
+    font-family: tahoma;
+    font-size: 13px;
+    color:#1b8d99;
+    text-align: justify;
+    margin: 5px;
+}
+
+
+.pag2{ 
+    position: relative;
+    font-family: tahoma;
+    font-size: 13px;
+    color: #660000;
+    text-align: justify;
+    margin: 5px;
+}
+
+
+.pag3{ 
+    position: relative;
+    font-family: tahoma;
+    font-size: 13px;
+    color: #1b8d99;
+    text-align: justify;
+    margin: 5px;
+}
+
+
+
+
+
+
+#prof
+{
+    border: 2px solid #1b8d99;
+    width: auto;
+    background-color: #1b8d99;
+    height: 96px;
+    display: flex;
+}
+
+#bortola
+{
+    border: 2px solid #660000;
+    width: auto;
+    background-color: #660000;
+    height: 26px;
+    display: flex;
+}
+
+
+
+#servico
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.s1
+{
+    width: 300px;
+    border: 3px solid #660000;
+    border-bottom: 13px solid #660000;
+    margin-right: 20px;
+    right: -6px;
+    position: relative;}
+
+#s2
+{
+    width: 300px;
+    border: 3px solid #1b8d99;
+    border-bottom: 13px solid #1b8d99;
+    margin-right: 20px;
+    position: relative;
+    right: -12px;
+}
+.s3{
+    width: 300px;
+    border: 3px solid #1b8d99;
+    border-bottom: 13px solid #1b8d99;
+    margin-right: 20px;
+    right: -15px;
+    position: relative;
+}
+
+
+#f
+{
+    margin-top: 7px;
+    padding-left: 816px;
+    color: white;
+    font-family: tahoma;
+    font-size: 14px;
+} 
+
+
+#au{
+    font-family: tahoma;
+    font-size: 14px;
+    color: white;
+    text-align: justify;
+    padding-top: 8px;
+
+}
+
+#lg{
+    width: 118px;
+    height: 29px;
+    padding-right: 82px;
+    padding-top: 32px;
+    padding-left: 20px;
+   } 
+
+   #bor{
+    width: 85px;
+    height: 188px;
+    margin-top: -155px;
+   }
+
+   .ss{ 
+        border:50px;
+        
+   }
+
+   .qs{ 
+    margin-inline: 0px;
+    width: 77px;
+right: 50px;
+    height: auto;
+
+   }
+
+   #md{
+    display: flex;
+    align-items: end;
+}
+
+   .dd{
+    position: relative;
+    right: 0;
+    padding-top: 41px;
+    height: 63px;
+   }
+
+/* titulos*/
+
+h1
+{
+    font-family: tahoma;
+    color: #1b8d99;
+    font-size: 17px;
+    background-color: #1b8d9926;
+    text-align: center;   
+}
+
+h2
+{
+    font-family: tahoma;
+    font-size: 17px;
+    color: #660000;
+    background-color: #66000033;
+    text-align: center; 
+}
+
+
+h6
+{
+    font-family: arial;
+    font-size: 18px;
+    color: #1b8d99;
+    text-decoration: underline 3px; 
+}
+
+iframe
+{
+    width: 1005px;
+    height: 497px;
+}
+
+/* Parte Tiago adicionando os preços do drone*/
+
+/* preço 1*/
+
+.q1
+{
+    width: 300px;
+    height: 96px;
+    background-color: #1b8d99;
+    border: 3px solid #1b8d99;
+    position: relative;
+    right: -8px;
+    z-index: 2;
+    bottom: 630px;
+}
+
+.pr1{   
+    font-size: 30px;
+    position: relative;
+    z-index: 5;
+    right: -31px;
+    bottom: 50px;
+    color: white;}
+.ppr1{
+
+    font-size: 13px;
+    position: relative;
+    z-index: 5;
+    right: -32px;
+    bottom: 81px;
+    color: white;
+}
+.car1{
+    padding: 5px;
+    background-color: white;
+    position: relative;
+    right: -215px;
+    bottom: 150px;
+    z-index: 4;
+}
+
+
+
+/* preço 2*/    
+
+.q2
+{
+    width: 300px;
+    height: 96px;
+    background-color: #660000;
+    border: 3px solid #660000;
+    position: relative;
+    right: -348px;
+    bottom: 745px;
+}
+
+
+.pr2{
+
+    position: relative;
+    z-index: 5;
+    right: -377px;
+    bottom: 241px;
+    color: white;
+    font-size: 30px;
+}
+.ppr2{
+
+    font-size: 13px;
+    position: relative;
+    z-index: 5;
+    right: -380px;
+    bottom: 269px;
+    color: white;
+}
+.car2{
+    padding: 5px;
+    background-color: white;
+    position: relative;
+    right: -558px;
+    bottom: 343px;
+    padding: 5px;
+    z-index: 4;}
+
+
+/* preço 3*/
+.q3
+{
+    width: 300px;
+    height: 96px;
+    background-color: #1b8d99;
+    border: 3px solid #1b8d99;
+    position: relative;
+    right: -687px;
+    bottom: 860px;}
+
+    .pr3{
+
+        position: relative;
+        z-index: 5;
+        right: -715px;
+        bottom: 433px;
+        color: white;
+        font-size: 30px;
+    }
+    .ppr3{
+    
+        font-size: 13px;
+        position: relative;
+        z-index: 5;
+        right: -725px;
+        bottom: 464PX;
+        color: white;
+    }
+    .car3{
+        padding: 5px;
+    background-color: white;
+    position: relative;
+    right: -892px;
+    bottom: 533px;
+    padding: 5px;
+    z-index: 4;}
+
+    
+/* servicos */
+
+.p1
+{
+    position: relative;
+    font-family: tahoma;
+    font-size: 13px;
+    color: #660000;
+    text-align: justify;
+    margin: 5px;
+    bottom: 5px;
+}
+
+.p2
+{
+    font-family: tahoma;
+    font-size: 13px;
+    color: #1b8d99;
+    text-align: justify;
+    margin: 5px;
+    position: relative;
+    bottom: 13px;}
+
+.p3{
+    font-family: tahoma;
+    font-size: 13px;
+    color: #660000;
+    text-align: justify;
+    margin: 5px;
+    position: relative;
+    bottom: -14px;
+}
+
+
+/* imagens servicos*/
+
+.is1{   
+    height: 142px;
+    width: 300px;
+    position: relative;
+    bottom: 17px;
+}
+.is2{
+    height: 142px;
+    width: 300px;
+    position: relative;
+    bottom: 16px;
+}
+
+/*titulos servicos */
+
+.cu 
+{
+    font-family: tahoma;
+    font-size: 17px;
+    color: #660000;
+    position: relative;
+    margin: 5pt;
+    bottom: 15px;
+}
+.m{   
+     font-family: tahoma;
+    font-size: 17px;
+    color: #1b8d99;
+    margin: 5pt;
+    position: relative;
+    bottom: 22px;
+}
+.ma{
+    font-family: tahoma;
+    font-size: 17px;
+    color: #660000;
+    margin: 5pt;
+}
+
+.loja
+{
+    display: flex;
+}
+.loja h2 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #600000;
+    text-transform: uppercase;
+    border-bottom: 2px solid #600000;
+    width: 855px;
+    font-size: 18px;
+    text-align: initial;
+    background-color: white;
+    position: relative;
+    right: -7px;}
+
+.serviço
+{
+    display: flex;
+}
+.serviço h2 
+{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c8e99;
+    text-transform: uppercase;
+    border-bottom: 2px solid #1c8e99;
+    width: 855px;
+    text-align: inherit;
+    background-color: white;
+    position: relative;
+    right: -7px;
+}
+
+.bordacinza
+{
+    border: #444444;
+    border-bottom: #444444;
+    height: 5px;
+    width: 980px;
+}
+
+#bor{
+    width: 94px;
+    height: 185px;
+    margin-top: -152px;
+}
+
+.bordacinza{
+    border: #444444;
+    border-bottom: #444444;
+    height: 5px;
+    width: 980px;
+
+}
+
+#barra
+{
+    height:15px;
+    border:0; 
+    background-color:#444444; 
+    box-shadow:0px 0px 5px #444444 inset; 
+    width:980px;
+}
+
+/* bottom drones*/
+
+.md1{
+    margin: 41px;
+    position: relative;
+    bottom: -45px;
+    right: 35px;
+}
+
+
+.md2{
+    position: relative;
+    right: -164px;
+    margin: 30px;
+    bottom: -31px;
+}
+
+.md3{
+    position: relative;
+    right: -296px;
+
+}
+
+#md{
+    height: 50px;
+}
